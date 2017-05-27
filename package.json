@@ -1,0 +1,23 @@
+{
+  "name": "express1305",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanpho93/express1305.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanpho93/express1305/issues"
+  },
+  "homepage": "https://github.com/vanpho93/express1305#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
