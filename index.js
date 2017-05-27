@@ -28,6 +28,10 @@ app.get('/tinh2/:pt/:soa/:sob', require('./controller/routeTinh2'));
 
 app.get('/show', (req, res) => res.render('show'));
 
+const arrMonHoc = [
+    'NodeJS', 'ReactJS', 'PHP', 'iOS', 'Android'
+];
 
+app.get('/list', (req, res) => res.render('list', { mang: arrMonHoc }));
 
 app.listen(3000);
