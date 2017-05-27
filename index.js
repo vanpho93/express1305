@@ -19,4 +19,10 @@ app.get('/tinh/:pt/:soa/:sob', require('./controller/routeTinh'));
 
 app.get('/tinh2/:pt/:soa/:sob', require('./controller/routeTinh2'));
 
+app.get('/show', (req, res) => res.render('show'));
+
+app.post('/xuly', (req, res) => {
+
+});
+
 app.listen(3000);
